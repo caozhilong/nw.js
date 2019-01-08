@@ -1,3 +1,36 @@
+0.30.5 / 05-18-2018
+===================
+- Update Chromium to [66.0.3359.181](https://chromereleases.googleblog.com/2018/05/stable-channel-update-for-desktop_15.html)
+- Support PaymentRequest API in chrome-extension [(#6595)](https://github.com/nwjs/nw.js/issues/6595)
+- Fix: crash when using service worker [(#6624)](https://github.com/nwjs/nw.js/issues/6624)
+- Fix: NW app not launching if RoamingProfileSupportEnabled registry key is set [(#6621)](https://github.com/nwjs/nw.js/issues/6621)
+- Fix: [Linux] Window should be resizable after setting resizable to true [(#6609)](https://github.com/nwjs/nw.js/issues/6609)
+- Fix: [Win] Upload button instead of select on folder picker nwdirectory [(#6610)](https://github.com/nwjs/nw.js/issues/6610)
+- Fix: Dev Tools crash when clearing Memory Profiles with `--enable-node-workers` [(#6615)](https://github.com/nwjs/nw.js/issues/6615)
+
+0.30.4 / 05-14-2018
+===================
+- Update Chromium to [66.0.3359.170](https://chromereleases.googleblog.com/2018/05/stable-channel-update-for-desktop.html)
+- Fix: Child iframe doesn't herit parent attributes [(#3362)](https://github.com/nwjs/nw.js/issues/3362)
+
+0.30.3 / 05-10-2018
+===================
+- Update Node.js to [v10.1.0](https://nodejs.org/en/blog/release/v10.1.0/)
+- Fix: Menu and MenuItem leak [(#6583)](https://github.com/nwjs/nw.js/issues/6583)
+- Add support for nwWindow.setShadow(bool) on Mac (Thanks to Jahanzeb Sherwani)
+- Fix: Window resizable false not honored on Linux [(#6592)](https://github.com/nwjs/nw.js/issues/6592)
+- [docs] Add nwWindow.setShadow(bool) on Mac
+
+0.30.2 / 04-28-2018
+===================
+- Update Chromium to [66.0.3359.139](https://chromereleases.googleblog.com/2018/04/stable-channel-update-for-desktop_26.html)
+- Fix: ES6 modules with .mjs extension / loaded from disk are broken [(#6585)](https://github.com/nwjs/nw.js/issues/6585)
+
+0.30.1 / 04-25-2018
+===================
+- Update Node.js to [v10.0.0](https://nodejs.org/en/blog/release/v10.0.0/)
+- Fix: WebSocket not working on spotify.com [(#6527)](https://github.com/nwjs/nw.js/issues/6527)
+
 0.30.0 / 04-18-2018
 ===================
 - Update Chromium to [66.0.3359.117](https://chromereleases.googleblog.com/2018/04/stable-channel-update-for-desktop.html)
